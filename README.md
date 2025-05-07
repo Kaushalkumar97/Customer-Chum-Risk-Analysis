@@ -15,11 +15,11 @@ This project focuses on predicting customer churn in the banking sector using ma
 - Results
 -Conclusion
 -Contributors
-##📌 Project Overview
+## 📌 Project Overview
 Customer churn — the loss of clients or customers — is a critical KPI in banking and has direct revenue implications. This project aims to develop a predictive model that can anticipate customer churn using historical data and machine learning algorithms. By understanding why customers leave, banks can implement effective, data-driven retention strategies.
-##📊 Dataset
+## 📊 Dataset
 The dataset used was obtained from Kaggle and includes information on 10,000 customers with 14 variables each. It covers both personal attributes and behavioral indicators relevant to churn prediction.
-Key Features Include:
+### Key Features Include:
 - `CreditScore`, `Age`, `Tenure`, `Balance`, `EstimatedSalary`
 - `Geography`, `Gender`, `NumOfProducts`, `IsActiveMember`, `HasCrCard`
 - `Exited`: Target variable (1 = churned, 0 = retained)
@@ -61,7 +61,9 @@ Visualizations revealed meaningful trends:
 - F1 Score: 0.84
 - AUC: 0.86
 - Most robust model in terms of generalization and predictive power
+  
 ## ✅ Results
 The Random Forest model delivered the best overall performance, achieving 84.2% test accuracy and AUC of 0.86. It demonstrated excellent balance between sensitivity and specificity, making it well-suited for deployment in customer retention programs.
+
 ## 📌 Conclusion
 This project demonstrates the effectiveness of machine learning in identifying churn-prone customers in the banking sector. With actionable insights from models like Random Forest, institutions can focus efforts on customer engagement, thereby reducing attrition. Future work could explore deep learning models and real-time prediction systems for further improvement.
